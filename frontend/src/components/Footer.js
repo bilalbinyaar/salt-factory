@@ -15,12 +15,9 @@ const Footer = () => {
               </div>
               <div className="git-2">
                 <h3>
-                  Get Your Right Solution, Contact <br /> Now With Us.
+                  Get Your Right Service, Contact <br /> Now With Us.
                 </h3>
               </div>
-              {/* <div className="divider">
-                <img src={divider} alt="divider" />
-              </div> */}
             </div>
             <div className="footer-top-rights">
               <div className="footer-contact">
@@ -42,14 +39,14 @@ const Footer = () => {
               </div>
             </div>
             <div className="bottom-content bottom-content-center">
-              <h5>Services</h5>
+              <h5>Lorem ipsum</h5>
               <ul className="services-ul">
-                <li>Cryptocurrencies</li>
-                <li>Stocks</li>
-                <li>Forex</li>
-                <li>Algorithmic Trading</li>
-                <li>Backtest</li>
-                <li>Customised Solutions</li>
+                <li>Lorem ipsum dolor</li>
+                <li>Lorem ipsum dolor</li>
+                <li>Lorem ipsum dolor</li>
+                <li>Lorem ipsum dolor</li>
+                <li>Lorem ipsum dolor</li>
+                <li>Lorem ipsum dolor</li>
               </ul>
             </div>
             <div className="bottom-content">
