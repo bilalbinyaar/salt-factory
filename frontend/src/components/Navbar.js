@@ -14,7 +14,6 @@ const Navbar = () => {
               <Link to="/">
                 <li>Home</li>
               </Link>
-              <li>Home</li>
               <li className="services-dropdown">
                 About Us
                 {/* <div className="submenu-wrapper">
