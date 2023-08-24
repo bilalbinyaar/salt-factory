@@ -39,14 +39,12 @@ const Footer = () => {
               </div>
             </div>
             <div className="bottom-content bottom-content-center">
-              <h5>Lorem ipsum</h5>
+              <h5>Quick Links</h5>
               <ul className="services-ul">
-                <li>Lorem ipsum dolor</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Lorem ipsum dolor</li>
+                <li>About Us</li>
+                <li>Our Products</li>
+                <li>Logistics</li>
+                <li>Contact Us</li>
               </ul>
             </div>
             <div className="bottom-content">

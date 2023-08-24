@@ -542,3 +542,146 @@ a {
 .mt {
   margin-top: 0.6rem;
 }
+
+.home-sizes-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-sizes-left {
+  width: 100%;
+  margin-right: 1.5rem;
+}
+
+.home-sizes-left p {
+  text-align: justify;
+}
+
+.home-sizes-right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.home-size-item {
+  padding: 1.4rem;
+  background-color: var(--white-color);
+  border-radius: 8px;
+  box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.25);
+  width: 180px;
+  height: 220px;
+}
+
+.home-size-item:hover {
+  background-color: var(--light-color);
+  cursor: pointer;
+}
+
+.home-size-item svg {
+  font-size: 28px;
+  margin-bottom: 0.8rem;
+}
+
+.sales-contact {
+  margin-top: 5rem;
+  background-color: var(--light-color);
+}
+
+.sales-contact .container {
+  padding: 4rem 0;
+}
+
+.sales-contact-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sales-contact-content-right {
+  width: 100%;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url(/src/assets/Salt-Introduction.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sales-contact-content-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sales-contact-content h3 {
+  color: var(--white-color);
+  margin-bottom: 1.4rem;
+}
+
+.sales-contact-content button {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--light-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.sales-contact-content button:hover {
+  background-color: var(--white-color);
+  color: var(--light-color);
+}
+
+.sales-contact-content button svg {
+  margin-right: 0.8rem;
+  font-size: 18px;
+}
+
+.sales-contact-content-left {
+  width: 100%;
+  padding: 1rem 2.4rem 1rem 2.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--light-color);
+}
+
+.sales-contact-content-left h3 {
+  color: var(--white-color);
+  margin-bottom: 0.6rem;
+}
+
+.sales-contact-content-left p {
+  margin-bottom: 1.4rem;
+  text-align: justify;
+  color: var(--dark-color);
+}
+
+.home-brands {
+  margin-top: 4rem;
+}
+
+.home-brands-slider {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-slide {
+  margin: 0 1.5rem;
+}
+
+.brand-slide img {
+  width: 150px;
+}

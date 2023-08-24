@@ -2,9 +2,10 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import banner1 from '../../assets/1s.webp';
+// import banner1 from '../../assets/1s.webp';
 import banner2 from '../../assets/2s.webp';
 import banner3 from '../../assets/3s.webp';
+import banner1 from '../../assets/home-produtcs/siwa-rock-salt.jpg';
 
 const HomeBanner = () => {
   const sliderItems = [

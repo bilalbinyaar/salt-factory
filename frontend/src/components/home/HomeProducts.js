@@ -60,7 +60,7 @@ const HomeProducts = () => {
             </div>
           </div>
 
-          <div className="home-product-item hpi-8 mt">
+          <div className="home-product-item hpi-8 mr mt">
             <div className="home-product-info">
               <h3>Non – Iodized Salt</h3>
             </div>
