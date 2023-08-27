@@ -1,27 +1,10 @@
-// import React from 'react';
-// import './App.css';
-// import Footer from './components/Footer';
-// import Navbar from './components/Navbar';
-// import Home from './screens/Home';
-
-// function App() {
-//   return (
-//     <React.Fragment>
-//       <Navbar />
-//       <Home />
-//       <Footer />
-//     </React.Fragment>
-//   );
-// }
-
-// export default App;
-
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './screens/Home';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import About from './screens/About';
 
 function App() {
   return (
@@ -30,6 +13,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about-us" element={<About />} />
         </Routes>
         <Footer />
       </Router>

@@ -14,9 +14,12 @@ const Navbar = () => {
               <Link to="/">
                 <li>Home</li>
               </Link>
-              <li className="services-dropdown">
+              <Link to="/about-us">
+                <li>About Us</li>
+              </Link>
+              {/*<li className="services-dropdown">
                 About Us
-                {/* <div className="submenu-wrapper">
+                 <div className="submenu-wrapper">
                   <ul className="submenu">
                     <Link to="/services-algo-trading">
                       <li>Algo Trading</li>
@@ -26,8 +29,8 @@ const Navbar = () => {
                     </Link>
                     <li>Service 3</li>
                   </ul>
-                </div> */}
-              </li>
+                </div> 
+              </li>*/}
               <li>Products</li>
               <li>Logistics</li>
               <li>Get Qoute</li>
