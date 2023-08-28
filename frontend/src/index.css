@@ -9,7 +9,7 @@
 
 :root {
   --dark-color: #252b48;
-  --light-color: #11139e;
+  --light-color: #9fe28d;
   --white-color: #ffffff;
   --gray-color: #2b2b2b;
   --body-color: rgba(244, 244, 244, 0.79);
@@ -686,7 +686,6 @@ a {
 .brand-slide img {
   width: 150px;
 }
-
 
 /* ABOUT CSS */
 .about-banner {
