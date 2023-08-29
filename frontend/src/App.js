@@ -3,20 +3,20 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './screens/Home';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import About from './screens/About';
+import Page404 from './components/Page404';
 
 function App() {
   return (
     <React.Fragment>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about-us" element={<About />} />
-        </Routes>
-        <Footer />
-      </Router>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/about-us" element={<About />} />
+        <Route path="*" element={<Page404 />} />
+      </Routes>
+      <Footer />
     </React.Fragment>
   );
 }
