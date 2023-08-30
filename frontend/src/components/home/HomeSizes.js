@@ -24,7 +24,7 @@ const HomeSizes = () => {
           <div className="home-sizes-right">
             <div className="home-size-item mr mt">
               <FaShirtsinbulk />
-              <h3>Bulk Salt</h3>
+              <h3>Bulk Carrier</h3>
               <p>Saltish supply high-quality salt with competitive price</p>
             </div>
             <div className="home-size-item mr mt">
