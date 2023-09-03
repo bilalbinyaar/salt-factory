@@ -773,3 +773,55 @@ a {
   text-align: center;
   font-weight: 600;
 }
+
+/* QUOTE PAGE */
+.quote-banner {
+  background-image: url(./assets/home-produtcs/Non\ –\ Iodized\ Salt.jpg);
+}
+
+input {
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin-right: 0.4rem;
+  border: 1px solid #2b2b2b7e;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: 1px solid var(--light-color);
+}
+
+select {
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin-right: 0.4rem;
+  border: 1px solid #2b2b2b7e;
+  border-radius: 4px;
+}
+
+select:focus {
+  outline: 1px solid var(--light-color);
+}
+
+textarea {
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin-right: 0.4rem;
+  border: 1px solid #2b2b2b7e;
+  border-radius: 4px;
+  resize: none;
+}
+
+textarea:focus {
+  outline: 1px solid var(--light-color);
+}
+
+.mb {
+  margin-bottom: 0.8rem;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

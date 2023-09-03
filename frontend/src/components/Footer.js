@@ -1,7 +1,7 @@
 import React from 'react';
 // import divider from '../assets/divider-img.png';
 import { AiFillTwitterSquare, AiFillLinkedin } from 'react-icons/ai';
-import { BsTelephone } from 'react-icons/bs';
+import { BsTelephone, BsEnvelope } from 'react-icons/bs';
 
 const Footer = () => {
   return (
@@ -54,7 +54,7 @@ const Footer = () => {
                 <p>+201023292423</p>
               </div>
               <div className="icon-info">
-                <BsTelephone />
+                <BsEnvelope />
                 <p>saltish@gmail.com</p>
               </div>
             </div>
