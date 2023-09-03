@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
 import About from './screens/About';
 import GetQuote from './screens/GetQuote';
+import Contact from './screens/Contact';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/get-quote" element={<GetQuote />} />
+        <Route path="/contact" element={<Contact />} />
         {/* <Route path="*" element={<Page404 />} /> */}
       </Routes>
       <Footer />

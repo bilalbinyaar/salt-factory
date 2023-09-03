@@ -83,6 +83,7 @@ button {
 
 button:hover {
   box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 
 a {
@@ -824,4 +825,45 @@ textarea:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.contact-form .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form-main {
+  width: 100%;
+  margin-right: 2rem;
+}
+
+.contact-form-info {
+  width: 100%;
+}
+
+.cont-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.cont-info p {
+  margin-left: 1rem;
+}
+
+.cont-info svg {
+  color: var(--light-color);
+  font-size: 22px;
+}
+
+.contact-head {
+  margin-bottom: 2rem;
+}
+
+.p-width {
+  width: 60%;
+}
+
+.contact-banner {
+  background-image: url(../src/assets/contactBanner.jpg);
 }
