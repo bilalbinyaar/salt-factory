@@ -867,3 +867,117 @@ textarea:focus {
 .contact-banner {
   background-image: url(../src/assets/contactBanner.jpg);
 }
+
+/* PRODUCTS CSS */
+.product-banner {
+  background-image: url(./assets/tyBanner.jpg);
+}
+.product-card-listings-main {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.product-card-listings-inner {
+  margin-bottom: 0.6rem;
+  margin-right: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: var(--white-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  flex: 0 0 calc(25% - 10px);
+  overflow: hidden;
+  box-shadow: 2px 1px 10px 1px #9fe28d6e;
+  max-height: max-content;
+}
+
+.product-lists-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+  padding: 1rem;
+  background-color: var(--body-color);
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.product-det-entry {
+  margin-bottom: 0.8rem;
+}
+
+.product-det-entry h4 {
+  color: var(--gray-color);
+}
+
+.product-det-entry strong {
+  color: var(--light-color);
+}
+
+.product-det-entry i {
+  color: var(--dark-color);
+}
+
+.listed-products-img {
+  width: 130px;
+  object-fit: cover;
+}
+
+/* THANK YOU CSS */
+.thankyou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.thankyou a {
+  color: var(--light-color);
+  text-decoration: underline;
+  margin-top: 1rem;
+}
+
+.thankyou p {
+  font-weight: 600;
+}
+
+/* LOGISTICS CSS */
+.logistics-banner {
+  background-image: url(./assets/logisticsBanner.jpg);
+}
+
+.logistics-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.log-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log-img img {
+  width: 450px;
+  border-radius: 8px;
+  box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.4);
+}
+
+.log-textual {
+  width: 100%;
+}
+
+.log-textual h3 {
+  margin-bottom: 1rem;
+}

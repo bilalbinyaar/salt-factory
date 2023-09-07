@@ -31,8 +31,12 @@ const Navbar = () => {
                   </ul>
                 </div> 
               </li>*/}
-              <li>Products</li>
-              <li>Logistics</li>
+              <Link to="/products">
+                <li>Products</li>
+              </Link>
+              <Link to="/logistics">
+                <li>Logistics</li>
+              </Link>
               <Link to="/get-quote">
                 <li>Get Quote</li>
               </Link>

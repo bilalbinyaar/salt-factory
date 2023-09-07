@@ -2,6 +2,7 @@ import React from 'react';
 // import divider from '../assets/divider-img.png';
 import { AiFillTwitterSquare, AiFillLinkedin } from 'react-icons/ai';
 import { BsTelephone, BsEnvelope } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -41,10 +42,21 @@ const Footer = () => {
             <div className="bottom-content bottom-content-center">
               <h5>Quick Links</h5>
               <ul className="services-ul">
-                <li>About Us</li>
-                <li>Our Products</li>
-                <li>Logistics</li>
-                <li>Contact Us</li>
+                <Link to="/">
+                  <li>Home</li>
+                </Link>
+                <Link to="/about-us">
+                  <li>About Us</li>
+                </Link>
+                <Link to="/products">
+                  <li>Products</li>
+                </Link>
+                <Link to="/logistics">
+                  <li>Logistics</li>
+                </Link>
+                <Link to="/get-quote">
+                  <li>Get Quote</li>
+                </Link>
               </ul>
             </div>
             <div className="bottom-content">

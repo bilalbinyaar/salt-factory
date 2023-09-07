@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const QuoteForm = () => {
   return (
@@ -650,7 +651,9 @@ const QuoteForm = () => {
               <textarea rows={7} placeholder="Additional Notes" />
             </div>
             <div className="form-group mb">
-              <button>Request Quote</button>
+              <Link to="/form-submission">
+                <button>Request Quote</button>
+              </Link>
             </div>
           </form>
         </div>

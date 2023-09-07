@@ -2,6 +2,7 @@ import React from 'react';
 import { BsFillTelephoneFill, BsWhatsapp } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
 import { HiLocationMarker } from 'react-icons/hi';
+import { Link } from 'react-router-dom';
 
 const ContactForm = () => {
   return (
@@ -23,7 +24,9 @@ const ContactForm = () => {
               <textarea rows={7} placeholder="Your Message" />
             </div>
             <div className="form-group mb">
-              <button>Submit</button>
+              <Link to="/form-submission">
+                <button>Submit</button>
+              </Link>
             </div>
           </form>
         </div>
